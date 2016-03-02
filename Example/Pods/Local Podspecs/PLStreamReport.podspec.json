@@ -1,0 +1,25 @@
+{
+  "name": "PLStreamReport",
+  "version": "0.1.0",
+  "summary": "A short description of PLStreamReport.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PLStreamReport",
+  "license": "MIT",
+  "authors": {
+    "0dayZh": "0day.zh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PLStreamReport.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PLStreamReport": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
