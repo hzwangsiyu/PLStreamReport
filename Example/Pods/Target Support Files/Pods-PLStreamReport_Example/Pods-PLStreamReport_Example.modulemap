@@ -1,0 +1,6 @@
+framework module Pods_PLStreamReport_Example {
+  umbrella header "Pods-PLStreamReport_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
