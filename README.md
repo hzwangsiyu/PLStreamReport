@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod "PLStreamReport"
 ```
 
-## Author
-
-0dayZh, 0day.zh@gmail.com
-
 ## License
 
-PLStreamReport is available under the MIT license. See the LICENSE file for more info.
+PLStreamReport is available under the Apache license. See the LICENSE file for more info.
