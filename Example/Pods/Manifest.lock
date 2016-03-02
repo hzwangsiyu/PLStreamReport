@@ -1,5 +1,7 @@
 PODS:
-  - PLStreamReport (0.1.0)
+  - PLStreamReport (1.0.0):
+    - PLStreamReport/precompiled (= 1.0.0)
+  - PLStreamReport/precompiled (1.0.0)
 
 DEPENDENCIES:
   - PLStreamReport (from `../`)
@@ -9,6 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PLStreamReport: 70d5def50469813977a95579ec6ecc50d9937952
+  PLStreamReport: 741069760f5f447a8c3a8284f0394b49ca23205b
 
 COCOAPODS: 0.39.0

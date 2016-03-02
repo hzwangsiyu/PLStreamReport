@@ -1,6 +1,0 @@
-framework module PLStreamReport {
-  umbrella header "PLStreamReport-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -82,10 +82,3 @@ strip_invalid_archs() {
   fi
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-PLStreamReport_Tests/PLStreamReport.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-PLStreamReport_Tests/PLStreamReport.framework"
-fi

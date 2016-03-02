@@ -1,25 +1,32 @@
 {
   "name": "PLStreamReport",
-  "version": "0.1.0",
-  "summary": "A short description of PLStreamReport.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/PLStreamReport",
-  "license": "MIT",
+  "version": "1.0.0",
+  "summary": "Stream status report for PLStreamingKit and PLPlayerKit",
+  "homepage": "https://github.com/pili-engineering/PLStreamReport",
+  "license": "Apache License, Version 2.0",
   "authors": {
     "0dayZh": "0day.zh@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/PLStreamReport.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/pili-engineering/PLStreamReport.git",
+    "tag": "v1.0.0"
   },
   "platforms": {
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "PLStreamReport": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "public_header_files": "Pod/Library/include/**/*.h",
+  "source_files": "Pod/Library/include/**/*.h",
+  "default_subspecs": "precompiled",
+  "subspecs": [
+    {
+      "name": "precompiled",
+      "preserve_paths": [
+        "Pod/Library/include/**/*.h",
+        "Pod/Library/lib/*.a"
+      ],
+      "vendored_libraries": "Pod/Library/lib/*.a",
+      "libraries": "PLStreamReport"
+    }
+  ]
 }
