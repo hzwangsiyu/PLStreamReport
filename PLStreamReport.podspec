@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PLStreamReport"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "Stream status report for PLStreamingKit and PLPlayerKit"
   s.homepage         = "https://github.com/pili-engineering/PLStreamReport"
   s.license          = 'Apache License, Version 2.0'
