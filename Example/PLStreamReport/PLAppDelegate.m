@@ -7,11 +7,13 @@
 //
 
 #import "PLAppDelegate.h"
+#import <PLStreamReport/PLQosEnv.h>
 
 @implementation PLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [PLQosEnv initEnv];
     // Override point for customization after application launch.
     return YES;
 }

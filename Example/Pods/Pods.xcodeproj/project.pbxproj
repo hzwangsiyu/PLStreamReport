@@ -38,8 +38,8 @@
 		A923B7EAFBA9E5E0BA2A2105A1C5FCF6 /* Pods-PLStreamReport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLStreamReport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9F3D0F4C645AB355C7E36B104471E6A /* Pods-PLStreamReport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PLStreamReport_Tests.modulemap"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C553E2954F09B0D311040DFF9743FA54 /* PLStreamReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLStreamReport.h; sourceTree = "<group>"; };
 		D666F19399A49BF6A947F961689765C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4F3454D23E4045DA631CC00E31AE6F6 /* PLQosEnv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PLQosEnv.h; sourceTree = "<group>"; };
 		E5BA16618A7C80DC6003F1230C98EE0A /* Pods-PLStreamReport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLStreamReport_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E8BBED9D3ED4AAF6A710E3DD2738E7DC /* Pods-PLStreamReport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PLStreamReport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +64,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BAA95D784700B511B61D561FD7A7503 /* PLStreamReport */ = {
+			isa = PBXGroup;
+			children = (
+				E4F3454D23E4045DA631CC00E31AE6F6 /* PLQosEnv.h */,
+			);
+			path = PLStreamReport;
+			sourceTree = "<group>";
+		};
 		4100E3C1406C76071D9C3EE9A162BC15 /* precompiled */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +172,7 @@
 		CD99AE83E3B912BF22662E7EAA29A12E /* include */ = {
 			isa = PBXGroup;
 			children = (
-				FF47E321C98FDA3E47F6DC4A459A6140 /* PLStreamReport */,
+				0BAA95D784700B511B61D561FD7A7503 /* PLStreamReport */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -201,14 +209,6 @@
 			);
 			name = "Pods-PLStreamReport_Tests";
 			path = "Target Support Files/Pods-PLStreamReport_Tests";
-			sourceTree = "<group>";
-		};
-		FF47E321C98FDA3E47F6DC4A459A6140 /* PLStreamReport */ = {
-			isa = PBXGroup;
-			children = (
-				C553E2954F09B0D311040DFF9743FA54 /* PLStreamReport.h */,
-			);
-			path = PLStreamReport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
